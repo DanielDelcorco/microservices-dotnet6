@@ -67,7 +67,7 @@ namespace GeekShopping.Web.Services
             }
             else
             {
-                throw new Exception("Something went wrong when calling API");
+                throw new Exception($"Something went wrong when calling API [DeleteProductById] : {id}");
             }
         }
     }
